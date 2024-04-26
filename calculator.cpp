@@ -1,5 +1,6 @@
 #include <iostream>
-#include <cmath>
+#include <cmath> 
+//// calculator program 
 
 using namespace std;
 
@@ -25,7 +26,8 @@ int main() {
 
     switch (op) {
         case '+':
-            
+            result = num1 + num2;
+            cout << "Result: " << num1 << " + " << num2 << " = " << result << endl;
             break;
         case '-':
             double ans = subtractTwoNum(num1, num2);
@@ -33,7 +35,7 @@ int main() {
             break;
         case '*':
             result = num1 * num2;
-            cout << "Result: " << num1 << " * " << num2 << " = " << result << endl;
+            cout << "Result is : " << num1 << " * " << num2 << " = " << result << endl;
             break;
         case '/':
             double ans;
