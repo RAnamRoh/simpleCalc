@@ -20,15 +20,29 @@ int main() {
 
     switch (op) {
         case '+':
+            result = num1 + num2;
+            cout<< "Result: "<< num1 << " + " << num2 << " = " << result <<endl;
+            break;
+        case '-':
+           
             
             break;
         case '-':
             
+
             break;
         case '*':
          
             break;
         case '/':
+
+            // if (num2 == 0) {
+            //     cout << "Error: Division by zero is not allowed." << endl;
+            // } else {
+            //     result = num1 / num2;
+            //     cout << "Result: " << num1 << " / " << num2 << " = " << result << endl;
+            // }
+
      
             break;
         default:
