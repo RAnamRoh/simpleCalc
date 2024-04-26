@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+//modification with second task
 using namespace std;
 
 int main() {
