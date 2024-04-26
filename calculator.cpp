@@ -1,7 +1,13 @@
 #include <iostream>
-#include <cmath>
+#include <cmath> 
+//// calculator program 
 
 using namespace std;
+
+int subtractTwoNum(int num1, int num2){
+    int ans = num1 = num2;
+    return ans;
+}
 
 int main() {
     double num1, num2;
@@ -20,30 +26,24 @@ int main() {
 
     switch (op) {
         case '+':
+            // bug fixed 
             result = num1 + num2;
-            cout<< "Result: "<< num1 << " + " << num2 << " = " << result <<endl;
+            cout << "Result: " << num1 << " + " << num2 << " = " << result << endl;
             break;
         case '-':
-           
-            
-            break;
-        case '-':
-            
-
+            double ans = subtractTwoNum(num1, num2);
+            cout<<"Result: "<<ans<<endl;
             break;
         case '*':
-         
+            result = num1 * num2;
+            cout << "Result is : " << num1 << " * " << num2 << " = " << result << endl;
             break;
         case '/':
-
-            // if (num2 == 0) {
-            //     cout << "Error: Division by zero is not allowed." << endl;
-            // } else {
-            //     result = num1 / num2;
-            //     cout << "Result: " << num1 << " / " << num2 << " = " << result << endl;
-            // }
-
-     
+            double ans;
+            if(num2>0) ans =  num1 / num2;
+            else ans = 0;
+            cout<<"Result: "<<ans<<endl;
+            /// fixed the problem
             break;
         default:
             cout << "Error: Invalid operation." << endl;
