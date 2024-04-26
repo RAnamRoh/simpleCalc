@@ -4,6 +4,11 @@
 
 using namespace std;
 
+int subtractTwoNum(int num1, int num2){
+    int ans = num1 = num2;
+    return ans;
+}
+
 int main() {
     double num1, num2;
     char op;
@@ -25,12 +30,8 @@ int main() {
             cout << "Result: " << num1 << " + " << num2 << " = " << result << endl;
             break;
         case '-':
-            result = num1 - num2;
-            cout << "Result: " << num1 << " - " << num2 << " = " << result << endl;
-            break;
-        case '-':
-
-
+            double ans = subtractTwoNum(num1, num2);
+            cout<<"Result: "<<ans<<endl;
             break;
         case '*':
             result = num1 * num2;
