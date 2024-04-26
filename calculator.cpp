@@ -40,6 +40,7 @@ int main() {
             if(num2>0) ans =  num1 / num2;
             else ans = 0;
             cout<<"Result: "<<ans<<endl;
+            /// fixed the problem
             break;
         default:
             cout << "Error: Invalid operation." << endl;
