@@ -24,11 +24,18 @@ int main() {
             cout << "Result: " << num1 << " + " << num2 << " = " << result << endl;
             break;
         case '-':
+           
+            break;
+        case '-':
+>>>>>>>>> Temporary merge branch 2
+
             break;
         case '*':
          
             break;
         case '/':
+<<<<<<<<< Temporary merge branch 1
+
             if (num2 == 0) {
                 cout << "Error: Division by zero is not allowed." << endl;
             } else {
@@ -42,6 +49,10 @@ int main() {
             //     result = num1 / num2;
             //     cout << "Result: " << num1 << " / " << num2 << " = " << result << endl;
             // }
+=========
+     
+
+     
             break;
         default:
             cout << "Error: Invalid operation." << endl;
