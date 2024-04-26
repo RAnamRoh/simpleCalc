@@ -26,6 +26,7 @@ int main() {
 
     switch (op) {
         case '+':
+            // bug fixed 
             result = num1 + num2;
             cout << "Result: " << num1 << " + " << num2 << " = " << result << endl;
             break;
