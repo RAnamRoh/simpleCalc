@@ -36,7 +36,9 @@ int main() {
             cout << "Result: " << num1 << " * " << num2 << " = " << result << endl;
             break;
         case '/':
-            double ans = num1 / num2;
+            double ans;
+            if(num2>0) ans =  num1 / num2;
+            else ans = 0;
             cout<<"Result: "<<ans<<endl;
             break;
         default:
